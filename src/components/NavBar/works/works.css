@@ -1,0 +1,40 @@
+#works{
+    margin: 0 auto;
+    min-height:calc(100vh-4rem);
+    width: 100vw;
+    max-width:  60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.worksDesc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.Experience{
+    font-weight: 200;
+    color: bisque;
+}
+.WorkPoints{
+color: aqua;
+align-items: left;
+font-style: italic;
+font-size: large;
+}
+.btn{
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background-color: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+@media screen and(max-width:585px) {
+    
+}
